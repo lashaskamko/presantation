@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+	width:100%;
+}
+/*start header*/
+.header-wraper{
+	background-color: #222222;
+	width: 100%;
+	height: 75px;
+}
+.div-logo{
+	background-color: rgba(20, 152, 152, 0.9); 
+	height: 75px;
+	width: 255px;
+	float:left;
+	margin-left: 98px;
+}
+.nav-li{
+	float: right;
+	margin-top: 25px;
+	margin-right: 80px;
+}
+.text-a{
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+/*end header*/
+/*start section*/
+.body-section{
+	position: relative;
+	background-color: rgba(20, 152, 152, 0.9);
+	width: 100%;
+	height: 300px;
+}
+.body-h1{
+	position: absolute;
+	top: 40%;
+	left:32%;
+	transform: translate(-50%,-50%) 
+	text-transform: uppercase;
+	color: white;
+	font-size: 36px;
+}
+
+.div-section{
+	width: 250px;
+	height: 2px;
+	background-color: black;
+	position: absolute;
+	top: 58%;
+	left: 40%;
+}
+.body-p{
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+	top: 70%;
+	left:30%;
+
+}
+.div-match{
+	background-color: white;
+	height: 220px;
+
+}
+/*end section*/
