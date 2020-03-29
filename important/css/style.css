@@ -1,0 +1,338 @@
+html, body {
+	height: 100%;
+	width:100%;
+}
+/*start header*/
+.header-wraper{
+	position: fixed;
+	background-color: #222222;
+	width: 100%;
+	height: 75px;
+	z-index: 2
+}
+
+.div-logo{
+	background-color: rgba(20, 152, 152, 0.9); 
+	height: 75px;
+	width: 268px;
+	float:left;
+	margin-left: 90px;
+	z-index: 1;
+	margin-top: -10.5px;
+	cursor: pointer;
+}
+.nav-li{
+	float: right;
+	margin-top: 17px;
+	margin-right: 80px;
+}
+.text-a{
+
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+/*end header*/
+/*start section*/
+.img{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.img-logo{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+}
+
+.logo-p{
+	text-transform: uppercase;
+	color: white;
+	font-size: 50px;
+	float: left;
+	margin-left: 90px;
+	text-decoration: underline;
+	margin-top: -80px;
+
+}
+.body-h1{
+	position: absolute;
+	top: 20%;
+	left:32%;
+	transform: translate(-50%,-50%) 
+	text-transform: uppercase;
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.div-section{
+	width: 250px;
+	height: 2px;
+	background-color: black;
+	position: absolute;
+	top: 33%;
+	left: 40%;
+}
+.body-p{
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+	top: 35%;
+	left:33%;
+
+}
+.div-match{
+	background-color: white;
+	height: 180px;
+}
+.border{
+	border-style: solid;
+	border-color: #5bc0de;
+	width: 100%;
+	height: 10px;
+	background-color: black;
+}
+.div-main{
+	width: 100%;
+	height: 160px;
+	background-color: white;
+}
+.div-border{
+		border-style: solid;
+	border-color: #5bc0de;
+	width: 100%;
+	height: 10px;
+	background-color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 30px;
+  border: 1px solid grey;
+  margin-top: 55px;
+  float: left;
+  margin-left: 200px;
+  width: 55%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 12%;
+  padding: 0px;
+  margin-top: 55px;
+  background: #2196F3;
+  color: white;
+  font-size: 22px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*end section*/
+/*new section*/
+.div-div{
+	width: 100%;
+	height: 661px;
+	background-color: #303030;
+}
+.div-not{
+	width: 100%;
+	height: 250px;
+	margin-top: 60px;
+}
+.row.text-center:hover{
+	cursor: pointer;
+}
+#logoMain {
+  width: 100px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px 0px #999 inset;
+  position: relative;
+}
+
+#logoMainafter {
+  width: 100px;
+  height: 100px;
+  margin-top: -35px;
+  margin-left: 55px;
+  display: block;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(50% 50%, circle cover, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 0) 24%);
+  -webkit-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+  -webkit-filter: blur(10px);
+}
+
+#logoInside {
+  width: 50px;
+  height: 50px;
+  margin: 24px;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 3px blue inset;
+}
+.section-div{
+	width:100%;
+	height: 350px;
+	background-color: white;
+}
+.div-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.col-md-3{
+	font-size: 35px;
+	color: rgba(20, 152, 152, 0.9);;
+}
+.text-h3{
+	color: white;
+	font-size: 15px;
+	
+}
+.text-h2{
+	color: white;
+	font-size: 18px;
+}
+.footer-box{
+	width: 100%;
+	height: 349px;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.footer-div{
+	background-color: black;
+	height: 260px;
+	width: 289px;
+}
+.footer-p{
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 1.1;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: black;
+  color: white;
+}
+.divnot{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100%; top:0px;}
+  50%  {background-color:blue; left:100%; top:100%;}
+  75%  {background-color:green; left:0px; top:100%;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.divnot1{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: why;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes why {
+  0%   {background-color:red; left:100%; top:0px;}
+  25%  {background-color:yellow; left:100%; top:100%;}
+  50%  {background-color:blue; left:0px; top:100%;}
+  75%  {background-color:green; left:0px; top:0px;}
+  100% {background-color:red; left:100%top:0px;}
+}
+.divnot2{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: need;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes need {
+  0%   {background-color:red; left:100%; top:100%;}
+  25%  {background-color:yellow; left:0px; top:100%;}
+  50%  {background-color:blue; left:0px; top:0px;}
+  75%  {background-color:green; left:100%; top:0px;}
+  100% {background-color:red; left:100%top:100%;}
+}
+.divnot3{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: when;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes when {
+  0%   {background-color:red; left:0px; top:100%;}
+  25%  {background-color:yellow; left:0px; top:0px;}
+  50%  {background-color:blue; left:100%; top:0px;}
+  75%  {background-color:green; left:100%; top:100%;}
+  100% {background-color:red; left:0px;top:100%;}
+}
+
+
+
